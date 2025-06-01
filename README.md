@@ -8,5 +8,15 @@ RGB(255, 255, 255). На вход должны подаваться только
 помощью функции рисования линии, которая рисует по двум точкам (x1, y1), (x2, y2). И
 модифицированная картинка опять выводится в консоль, а потом сохраняется в новый BMP файл
 (тоже запрашивается его имя).
+
+Для сборки проекта:
+mkdir build
+cd build
+cmake ..
+cmake --build .
+build\Debug\bmp_processor.exe
+
+
+
 ![Image](https://github.com/user-attachments/assets/c68fa8b1-3113-47e2-b858-9f987df6ac2e)
 ![Image](https://github.com/user-attachments/assets/0148e137-7b41-4750-af11-443b7ae181d7)
